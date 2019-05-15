@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+
+
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-family: 'IBM Plex Serif', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #D2B48C;
+    
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+#index-header {
+    display: none;
+}
+
+#index-content {
+    display: none;
+}
+
+#index-footer {
+    display: none;
+}
+
+#title-bar {
+    height: 130px;
+    background-color: #A0522D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#bottom-bar {
+    height: 50px;
+    background-color: #A0522D;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    overflow:hidden;
+}
+
+#title-text {
+    font-family: 'IBM Plex Serif', sans-serif;
+    margin-left: 150px;
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+#copyright {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#copyright a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: gold;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+   
+   
+    
+
+}
+
+.navigation a{
+    margin-right: 15px;
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    font-family: 'Playfair Display SC', sans-serif;
+}
+
+
+
+.content {
+    margin: 160px 150px 70px;
+
+}
+
+
+.input-field {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.form-label {
+    font-weight: bold;
+    display: block;
+}
+
+
+textarea {
+    resize: none;
+    height: 200px;
+}
+
+#contact-field-set {
+    border-radius: 10px;
+    padding: 15px 20px 15px 15px;
+}
+
+
+
+#submit-button {
+    margin-top: 5px;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    background: #A0522D;
+}
+
+#next-button {
+    text-decoration: none;
+    padding: 3px;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    background: #A0522D;
+    width: 5%
+
+}
+
+.paragraph-img {
+    margin: 10px;
+    float: right;
+    width: 18%;
+    border-radius: 3px;
+}
+
+#malting-floor-img {
+    margin-left: 10px;
+    float: right;
+    width: 47%;
+    border-radius: 3px;
+}
+
+.source {
+    float: right;
+    font-size: 14px;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 8rem;
+}
+
+.layout{
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../images/shots.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:900px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.layout h2, .layout p{
+	color:#fff;
+}
+
+
+
+
+
